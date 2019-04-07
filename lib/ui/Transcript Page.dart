@@ -8,10 +8,8 @@ import 'dart:async';
 
 
 
-
 class MyHomePage extends StatefulWidget {
-  String _BloodGrp, _Qty, _Priority;
-  int _PayValue;
+  String _BloodGrp, _Qty;
 
   MyHomePage(this._BloodGrp, this._Qty);
 
@@ -21,21 +19,24 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+Future<void> Func() async {
+  final FirebaseApp app = await FirebaseApp.configure(
+      name: "Blood Bank",
+      options: FirebaseOptions(
+          googleAppID: '1:476120663832:android:84e448d6086da5e0',
+          apiKey: 'AIzaSyDm5ZBJ0dOX1lgfG7KLKsd-KX1RDhVNyfw' ,
+          databaseURL: 'https://bloodbank-abad9.firebaseio.com',
+      ));
 
 
-
-
-
-
-
+}
   @override
   void initState() {
     super.initState();
 
   }
-  String _BloodGrp, _Qty, _Priority,fullname,phoneNum;
+  String _BloodGrp, _Qty,fullname,phoneNum;
 
-  int _PayValue;
 
   _MyHomePageState(this._BloodGrp, this._Qty);
 
