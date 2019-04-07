@@ -81,7 +81,7 @@ class homeState extends State<HomePage> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => RequestBlood(),
+                        builder: (context) => RequiredBlood(),
                       ));
                   // Update the state of the app
                   // ...
