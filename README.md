@@ -2,7 +2,7 @@
 
 
 
-This is a Blood Donation Management Solution developed on Flutter and backend on Node JS for "Software Engineer" system project.
+This is a Blood Donation Management Solution developed on Flutter and backend on Node JS for "Software Engineer" semester project.
 
 - Flutter
 - Firbase database
